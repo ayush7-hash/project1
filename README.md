@@ -26,13 +26,47 @@ but a summary is printed to the console.
 
 INSTALLATION
 
-1. git clone https://github.com/ayush7-hash/project1.git
+1. git clone https://github.com/<your-username>/<your-repo>.git
+   
+Note on python vs python3 (and pip vs pip3): Depending on your OS, the command to run Python may be python or python3, and similarly the package installer may be pip or pip3. To check which ones to use, run:
+
+bashpython --version
+python3 --version
+pip --version
+pip3 --version
+
+Use whichever python/python3 command returns a version starting with 3.x (e.g. Python 3.12.1), and the matching pip/pip3 command (whichever one doesn't return "command not found"). On Windows, python and pip usually work out of the box. On macOS/Linux, you'll often need python3 and pip3 instead, unless you've set up aliases (see below). All commands in this README use python/pip — substitute python3/pip3 if that's what your system requires.
+
+
+Repo Access
+
+HTTPS with a Personal Access Token (PAT)
+
+Go to GitHub → profile picture → Settings → Developer settings → Personal access tokens → Tokens (classic).
+Click Generate new token (classic), give it a name and expiration, and check the repo scope.Make sure to check the repo scope , or 
+else your installation will not work.
+Click Generate token and copy it immediately — GitHub only shows it once.
+
+Run:
+
+git clone https://github.com/<org-or-username>/<repo-name>.git
+
+
+When prompted:
+
+
+   Username for 'https://github.com': <your-github-username>
+   Password for 'https://<your-github-username>@github.com': <paste-your-token-here>
+
+Use your token, not your actual GitHub account password — passwords are rejected.
+
 2. cd project1
-3. pip install -r requirements.txt
+3. pip install -r requirements.txt (use pip or pip3 as per your system)
+
 
 USAGE
 
-bashpython filter_columns.py --data file1.xlsx --master masterfile.xlsx --output result.xlsx
+python filter_columns.py --data file1.xlsx --master masterfile.xlsx --output result.xlsx (use Python or Python3 as per your system)
 
 NOTE : Here file1.xlsx is the orignal excel file you need to make changes in.
             masterfile.xlsx is the masterfile from which you need to compare the columns of file 1.
@@ -41,7 +75,7 @@ NOTE : Here file1.xlsx is the orignal excel file you need to make changes in.
 
 EXAMPLE
 
-bashpython filter_columns.py \
+python filter_columns.py \
   --data file1_sample.xlsx \
   --master masterfile_sample.xlsx \
   --output result.xlsx
