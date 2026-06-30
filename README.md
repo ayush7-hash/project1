@@ -26,7 +26,7 @@ but a summary is printed to the console.
 
 INSTALLATION
 
-1. git clone https://github.com/<your-username>/<your-repo>.git
+1. git clone https://github.com/ayush7-hash/project1.git
    
 Note on python vs python3 (and pip vs pip3): Depending on your OS, the command to run Python may be python or python3, and similarly the package installer may be pip or pip3. To check which ones to use, run:
 
@@ -49,7 +49,7 @@ Click Generate token and copy it immediately — GitHub only shows it once.
 
 Run:
 
-git clone https://github.com/<org-or-username>/<repo-name>.git
+git clone https://github.com/ayush7-hash/project1.git
 
 
 When prompted:
