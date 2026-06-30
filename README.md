@@ -59,6 +59,7 @@ When prompted:
    Password for 'https://<your-github-username>@github.com': <paste-your-token-here>
 
 Use your token, not your actual GitHub account password — passwords are rejected.
+Note that when you paste the token , you wont be able to see it. You'll just see blank space. Ignore that and just click on return/enter. 
 
 2. cd project1
 3. pip install -r requirements.txt (use pip or pip3 as per your system)
@@ -66,16 +67,23 @@ Use your token, not your actual GitHub account password — passwords are reject
 
 USAGE
 
-python filter_columns.py --data file1.xlsx --master masterfile.xlsx --output result.xlsx (use Python or Python3 as per your system)
+python filter_column.py --data file1.xlsx --master masterfile.xlsx --output result.xlsx (use Python or Python3 as per your system)
 
 NOTE : Here file1.xlsx is the orignal excel file you need to make changes in.
             masterfile.xlsx is the masterfile from which you need to compare the columns of file 1.
             result.xlsx is the new file which will be created. 
 
+Replace the names of your orignal files in this python command.
+Make sure that you place both of the files (file1 and the masterfile) inside the directory we created i.e. project1.
+
+Run the command
+
+You will find the new file result.xlsx inside the project1 directory. 
+
 
 EXAMPLE
 
-python filter_columns.py \
+python filter_column.py \
   --data file1_sample.xlsx \
   --master masterfile_sample.xlsx \
   --output result.xlsx
