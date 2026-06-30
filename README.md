@@ -26,7 +26,7 @@ but a summary is printed to the console.
 
 INSTALLATION
 
-1. bashgit clone https://github.com/<your-username>/<your-repo>.git
+1. bashgit clone https://github.com/ayush7-hash/project1.git
 2. cd project1
 3. pip install -r requirements.txt
 
