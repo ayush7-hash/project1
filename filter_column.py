@@ -1,5 +1,5 @@
 """
-filter_columns.py
+filter_column.py
 
 Takes two Excel files:
   1. A "data" file (file1)
