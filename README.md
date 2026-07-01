@@ -276,7 +276,7 @@ Columns in data file NOT found in masterfile (excluded): ['invoice_date', 'Inter
 
 <div align="center">
 
-**Built with 🐍 Python · 🐼 pandas · ❤️ attention to detail**
+**Built with 🐍 Python · 🐼 pandas **
 
 *Got a question or found a bug? Open an issue — we don't bite.* 😄
 
