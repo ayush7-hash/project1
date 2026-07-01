@@ -232,13 +232,10 @@ python filter_column.py --data samples/file1_sample.xlsx --master samples/master
 ```
 
 **Expected output in your terminal:**
-```
-Done. 4 matching column(s) written to 'result.xlsx'.
-Matched columns: ['VENDOR NAME ', ' Invoice Number', 'Amount (USD)', 'Sales  Region']
-Columns in data file NOT found in masterfile (excluded): ['invoice_date', 'Internal Notes']
-```
 
-![Result in Excel](screenshots/result_excel.png)
+
+<img width="1068" height="155" alt="Screenshot 2026-07-01 at 3 47 28 PM" src="https://github.com/user-attachments/assets/b15882e8-86e1-46a2-8427-e8c90d5fe173" />
+
 
 ---
 
